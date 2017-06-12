@@ -1,0 +1,12 @@
+Tag,Xpath,Attribute,Token,NewValue
+Connection-General,"//connectionStrings/add[@name=""BillingDB""]",connectionString,{{BILLINGDB}},{{BILLINGDB}}
+Connection-General,"//connectionStrings/add[@name=""BillingEntities""]",connectionString,{{BILLINGENTITIES}},{{BILLINGENTITIES}}
+Connection-General,"//connectionStrings/add[@name=""ERPSTAGEDB""]",connectionString,{{ERPSTAGEDB}},{{ERPSTAGEDB}}
+Connection-General,"//connectionStrings/add[@name=""ExascaleDB""]",connectionString,{{EXASCALEDB}},{{EXASCALEDB}}
+Connection-General,"//connectionStrings/add[@name=""ExascaleDWDB""]",connectionString,{{EXASCALEDWDB}},{{EXASCALEDWDB}}
+Connection-General,"//connectionStrings/add[@name=""ExascaleEntities""]",connectionString,{{EXASCALEENTITIES}},{{EXASCALEENTITIES}}
+Connection-General,"//connectionStrings/add[@name=""ExascaleReportingMdx""]",connectionString,{{EXASCALEREPORTINGMDX}},{{EXASCALEREPORTINGMDX}}
+Connection-General,"//connectionStrings/add[@name=""FEDSDB""]",connectionString,{{FEDSDB}},{{FEDSDB}}
+Connection-General,"//connectionStrings/add[@name=""FEDSEntities""]",connectionString,{{FEDSENTITIES}},{{FEDSENTITIES}}
+Connection-General,"//connectionStrings/add[@name=""InvoiceDB""]",connectionString,{{INVOICEDB}},{{INVOICEDB}}
+Connection-General,"//connectionStrings/add[@name=""NexusLogDB""]",connectionString,{{NEXUSLOGDB}},{{NEXUSLOGDB}}

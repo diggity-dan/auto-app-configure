@@ -1,0 +1,9 @@
+Tag,Xpath,Attribute,Token,NewValue
+Logging-General,"//appender[@name=""RollingFileAppender""]/file",value,{{FILE}},..\\Logs\\Exascale.log
+Logging-General,"//appender[@name=""RollingFileAppender""]/maximumFileSize",value,{{MAXIMUMFILESIZE}},1000MB
+Logging-General,"//appender[@name=""AdoNetAppender""]/connectionString",value,{{ADONETCONNECTION}},data source=DCNA2-Q-SQL-01;initial catalog=NexusLog;integrated security=false;Enlist=false;persist security info=True;User ID=saExascale;Password=eSec235
+Logging-General,"//appender[@name=""ReqResAppender""]/connectionString",value,{{REQRESCONNECTION}},data source=DCNA2-Q-SQL-01;initial catalog=NexusLog;integrated security=false;Enlist=false;persist security info=True;User ID=saExascale;Password=eSec235
+Logging-General,"//logger[@name=""DBLogger""]/level",value,{{DBLOGGERLEVEL}},ALL
+Logging-General,"//logger[@name=""FileLogger""]/level",value,{{FILELOGGERLEVEL}},ALL
+Logging-General,"//logger[@name=""EventLogger""]/level",value,{{EVENTLOGGERLEVEL}},ERROR
+Logging-General,"//logger[@name=""ReqResLogger""]/level",value,{{REQRESLOGGERLEVEL}},ALL
